@@ -8,6 +8,25 @@ Fue desarrollado como proyecto de aprendizaje para aplicar programación en Java
 
 ---
 
+## 🧠 Aspectos técnicos destacados
+
+Este proyecto integra diferentes funcionalidades de Java dentro de una aplicación de escritorio completa:
+
+- Desarrollo de interfaz gráfica con **JavaFX**.
+- Manejo del estado del temporizador entre concentración y descanso.
+- Ejecución del contador mediante `Timeline` y `KeyFrame`.
+- Manejo de eventos de usuario.
+- Validación y formateo de campos de tiempo.
+- Reproducción de alertas mediante `MediaPlayer`.
+- Notificaciones del sistema utilizando `SystemTray`.
+- Registro de fecha y hora mediante Java Time API.
+- Persistencia local de sesiones en archivos CSV.
+- Lectura automática del historial al iniciar la aplicación.
+- Visualización de registros mediante `TableView`.
+- Uso de `ObservableList` para gestionar los datos mostrados en la interfaz.
+
+---
+
 ## ✨ Funcionalidades
 
 ### ⏱️ Temporizador Pomodoro
@@ -105,5 +124,10 @@ La tabla muestra:
 
 El historial se almacena localmente en:
 
-```text
-registros_pomodoro.csv
+`registros_pomodoro.csv`
+
+## 📌 Estado del proyecto
+
+Proyecto completado y funcional desarrollado como parte de mi formación en Java.
+
+La aplicación permite configurar sesiones de concentración y descanso, ejecutar automáticamente el ciclo Pomodoro, reproducir alertas, mostrar notificaciones y mantener un historial persistente de las sesiones realizadas.
