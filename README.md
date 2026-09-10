@@ -124,7 +124,9 @@ La tabla muestra:
 
 El historial se almacena localmente en:
 
-`registros_pomodoro.csv`
+```text 
+registros_pomodoro.csv
+```
 
 ## 📌 Estado del proyecto
 
